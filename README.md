@@ -8,13 +8,13 @@ Plugin implementation is [here](./plugins/backstage-kcl/)
 
 ### Configure Your Backstage Instance
 
-+ Add `@kcl-lang/plugin-backstage-kcl` dependency in your `package.json`.
+- Add `@kcl-lang/plugin-backstage-kcl` dependency in your `package.json`.
 
 ```json
 "@kcl-lang/plugin-backstage-kcl": "*",
 ```
 
-+ Add KCL page to sidebar
+- Add KCL page to sidebar
 
 ```diff
  // packages/app/src/components/Root/Root.tsx
@@ -48,7 +48,7 @@ Plugin implementation is [here](./plugins/backstage-kcl/)
  );
 ```
 
-+ Run your Backstage instance and select the KCL sidebar.
+- Run your Backstage instance and select the KCL sidebar.
 
 ![Plugin](./images/plugin.jpg)
 
