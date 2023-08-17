@@ -9,11 +9,14 @@ import {
   HeaderLabel,
   SupportButton,
 } from '@backstage/core-components';
-import { apiDocsPlugin, ApiExplorerPage } from '@backstage/plugin-api-docs';
+import { ApiExplorerPage } from '@backstage/plugin-api-docs';
 
 export const Main = () => (
   <Page themeId="tool">
-    <Header title="Welcome to Backstage KCL Plugin" subtitle="Use KCL UI to manage your configuration">
+    <Header
+      title="Welcome to Backstage KCL Plugin"
+      subtitle="Use KCL UI to manage your configuration"
+    >
       <HeaderLabel label="Owner" value="KCL Language Team" />
       <HeaderLabel label="Lifecycle" value="Alpha" />
     </Header>
@@ -27,7 +30,7 @@ export const Main = () => (
             <Typography variant="body1">
               You can use UI and editor to manage your KCL projects
             </Typography>
-            <Button title='Create' />
+            <Button title="Create" />
           </InfoCard>
         </Grid>
       </Grid>

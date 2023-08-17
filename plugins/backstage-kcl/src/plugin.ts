@@ -15,8 +15,7 @@ export const backstageKclPlugin = createPlugin({
 export const BackstageKclPage = backstageKclPlugin.provide(
   createRoutableExtension({
     name: 'BackstageKclPage',
-    component: () =>
-      import('./components/Main').then(m => m.Main),
+    component: () => import('./components/Main').then(m => m.Main),
     mountPoint: rootRouteRef,
   }),
 );
