@@ -9,10 +9,9 @@ import {
   HeaderLabel,
   SupportButton,
 } from '@backstage/core-components';
-import { ApiExplorerPage } from '@backstage/plugin-api-docs';
 
 export const Main = () => (
-  <Page themeId="tool">
+  <Page themeId="main">
     <Header
       title="Welcome to Backstage KCL Plugin"
       subtitle="Use KCL UI to manage your configuration"
@@ -34,7 +33,6 @@ export const Main = () => (
           </InfoCard>
         </Grid>
       </Grid>
-      <ApiExplorerPage />
     </Content>
   </Page>
 );
