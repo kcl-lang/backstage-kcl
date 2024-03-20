@@ -51,6 +51,7 @@ Plugin implementation is [here](./plugins/backstage-kcl/)
 - Run your Backstage instance and select the KCL sidebar.
 
 ![Plugin](./images/plugin.jpg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcl-lang%2Fbackstage-kcl.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcl-lang%2Fbackstage-kcl?ref=badge_shield)
 
 ### Prerequisites
 
@@ -93,3 +94,7 @@ yarn lint
 yarn prettier:check # Checks for any code formatting errors
 yarn prettier:write # Formats code
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcl-lang%2Fbackstage-kcl.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcl-lang%2Fbackstage-kcl?ref=badge_large)
